@@ -99,7 +99,7 @@ const faqs = [
   },
 ];
 
-export default function Home() {
+export function HomePage() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [showTopButton, setShowTopButton] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
