@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Caramel Latte",
+    "desc": "Espresso, steamed milk, caramel drizzle",
+    "price": "Rp42.000",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "name": "Cold Brew Citrus",
+    "desc": "18-hour brew, orange peel, cane syrup",
+    "price": "Rp38.000",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "name": "Mocha Noir",
+    "desc": "Dark chocolate, double shot espresso, foam",
+    "price": "Rp45.000",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "name": "Vanilla Oat Flat White",
+    "desc": "Single origin espresso, oat milk, vanilla bean",
+    "price": "Rp40.000",
+    "image": "https://images.unsplash.com/photo-1529892485617-25f63cd7b1e9?auto=format&fit=crop&w=900&q=80"
+  }
+]

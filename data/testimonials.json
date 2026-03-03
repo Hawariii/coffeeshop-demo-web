@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Nadia Putri",
+    "role": "UI Designer",
+    "quote": "Tempatnya warm, kopinya konsisten enak, dan staff-nya ngerti detail rasa. Cocok buat kerja lama.",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "name": "Rendy Satria",
+    "role": "Startup Founder",
+    "quote": "Meeting client jadi lebih nyaman di sini. Signature latte-nya jadi andalan setiap minggu.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "name": "Alma Savitri",
+    "role": "Content Creator",
+    "quote": "Visual interior dan plating minumannya standout. Foto-foto jadi bagus tanpa effort berlebih.",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+  }
+]
