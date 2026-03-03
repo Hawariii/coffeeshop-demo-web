@@ -40,7 +40,7 @@ export function FaqContactSection({ items }: FaqContactSectionProps) {
         </p>
         <div className="mt-8 space-y-3">
           <a
-            href="https://wa.me/628111111111"
+            href="https://wa.me/6283876670903"
             className="btn-shine block rounded-full bg-[color:var(--coffee-cream)] px-5 py-3 text-center font-semibold text-[color:var(--coffee-ink)] transition hover:bg-[color:var(--coffee-latte)]"
           >
             WhatsApp Reservation

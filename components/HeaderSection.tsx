@@ -21,7 +21,7 @@ export function HeaderSection({
     >
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
         <a href="#home" className="font-display text-2xl tracking-tight text-[color:var(--coffee-ink)]">
-          Ember & Bean
+          Caffe Demo
         </a>
 
         <button
