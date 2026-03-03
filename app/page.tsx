@@ -64,7 +64,7 @@ export default function Page() {
         onCloseMobileMenu={() => setMobileOpen(false)}
       />
 
-      <main id="home" className="mx-auto w-full max-w-6xl px-6 pb-20 pt-24">
+      <main id="home" className="mx-auto w-full max-w-6xl px-6 pb-20 pt-20 sm:pt-24">
         <Hero />
         <Menu items={menuItems} />
         <About />

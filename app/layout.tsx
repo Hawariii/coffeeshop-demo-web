@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ember & Bean | Coffee Shop Landing Page",
+  title: "Demo | Coffee Shop Landing Page",
   description:
     "Specialty coffee shop dengan menu signature, suasana cozy, dan reservasi mudah untuk meeting atau quality time.",
 };
