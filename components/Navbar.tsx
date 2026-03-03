@@ -1,19 +1,19 @@
-interface HeaderSectionProps {
+interface NavbarProps {
   isScrolled: boolean;
   mobileOpen: boolean;
   onToggleMobileMenu: () => void;
   onCloseMobileMenu: () => void;
 }
 
-export function HeaderSection({
+export function Navbar({
   isScrolled,
   mobileOpen,
   onToggleMobileMenu,
   onCloseMobileMenu,
-}: HeaderSectionProps) {
+}: NavbarProps) {
   return (
     <header
-      className={`sticky top-0 z-50 border-b backdrop-blur transition-all duration-300 ${
+      className={`fixed left-0 right-0 top-0 z-50 border-b backdrop-blur transition-all duration-300 ${
         isScrolled
           ? "border-[color:var(--coffee-warm)]/70 bg-[color:var(--coffee-cream)]/95 shadow-[0_10px_30px_-20px_rgba(42,26,18,0.7)]"
           : "border-white/40 bg-[color:var(--coffee-cream)]/85"

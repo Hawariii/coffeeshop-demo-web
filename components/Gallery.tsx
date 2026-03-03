@@ -5,11 +5,11 @@ interface GalleryItem {
   image: string;
 }
 
-interface GallerySectionProps {
+interface GalleryProps {
   items: GalleryItem[];
 }
 
-export function GallerySection({ items }: GallerySectionProps) {
+export function Gallery({ items }: GalleryProps) {
   return (
     <section id="gallery" data-reveal className="reveal py-16">
       <h2 className="font-display text-4xl text-[color:var(--coffee-ink)]">Coffee Moments</h2>

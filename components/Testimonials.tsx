@@ -7,11 +7,11 @@ interface TestimonialItem {
   avatar: string;
 }
 
-interface TestimonialsSectionProps {
+interface TestimonialsProps {
   items: TestimonialItem[];
 }
 
-export function TestimonialsSection({ items }: TestimonialsSectionProps) {
+export function Testimonials({ items }: TestimonialsProps) {
   return (
     <section id="testimonials" data-reveal className="reveal py-16">
       <h2 className="font-display text-4xl text-[color:var(--coffee-ink)]">What They Say</h2>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function HeroSection() {
+export function Hero() {
   return (
     <section data-reveal className="reveal grid gap-10 py-20 md:grid-cols-[1.1fr_0.9fr] md:items-center">
       <div>

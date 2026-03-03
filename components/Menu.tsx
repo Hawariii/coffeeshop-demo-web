@@ -7,11 +7,11 @@ interface MenuItem {
   image: string;
 }
 
-interface MenuSectionProps {
+interface MenuProps {
   items: MenuItem[];
 }
 
-export function MenuSection({ items }: MenuSectionProps) {
+export function Menu({ items }: MenuProps) {
   return (
     <section id="menu" data-reveal className="reveal py-16">
       <div className="mb-10 flex flex-wrap items-end justify-between gap-4">

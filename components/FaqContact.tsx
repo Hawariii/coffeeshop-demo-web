@@ -3,11 +3,11 @@ interface FaqItem {
   a: string;
 }
 
-interface FaqContactSectionProps {
+interface FaqContactProps {
   items: FaqItem[];
 }
 
-export function FaqContactSection({ items }: FaqContactSectionProps) {
+export function FaqContact({ items }: FaqContactProps) {
   return (
     <section data-reveal className="reveal grid gap-8 py-16 md:grid-cols-2">
       <div>

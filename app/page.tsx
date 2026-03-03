@@ -1,15 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AboutSection } from "@/components/AboutSection";
+import { About } from "@/components/About";
 import { BackToTopButton } from "@/components/BackToTopButton";
-import { FaqContactSection } from "@/components/FaqContactSection";
-import { FooterSection } from "@/components/FooterSection";
-import { GallerySection } from "@/components/GallerySection";
-import { HeaderSection } from "@/components/HeaderSection";
-import { HeroSection } from "@/components/HeroSection";
-import { MenuSection } from "@/components/MenuSection";
-import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { FaqContact } from "@/components/FaqContact";
+import { Footer } from "@/components/Footer";
+import { Gallery } from "@/components/Gallery";
+import { Hero } from "@/components/Hero";
+import { Menu } from "@/components/Menu";
+import { Navbar } from "@/components/Navbar";
+import { Testimonials } from "@/components/Testimonials";
 import faqs from "@/data/faqs.json";
 import galleryItems from "@/data/gallery-items.json";
 import menuItems from "@/data/menu-items.json";
@@ -57,23 +57,23 @@ export default function Page() {
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(209,141,84,0.22),_transparent_45%),radial-gradient(circle_at_80%_20%,_rgba(83,53,28,0.2),_transparent_42%)]" />
       <div className="float-orb pointer-events-none absolute -left-16 top-24 -z-10 h-48 w-48 rounded-full bg-[color:var(--coffee-accent)]/20 blur-2xl" />
 
-      <HeaderSection
+      <Navbar
         isScrolled={isScrolled}
         mobileOpen={mobileOpen}
         onToggleMobileMenu={() => setMobileOpen((prev) => !prev)}
         onCloseMobileMenu={() => setMobileOpen(false)}
       />
 
-      <main id="home" className="mx-auto w-full max-w-6xl px-6 pb-20">
-        <HeroSection />
-        <MenuSection items={menuItems} />
-        <AboutSection />
-        <GallerySection items={galleryItems} />
-        <TestimonialsSection items={testimonials} />
-        <FaqContactSection items={faqs} />
+      <main id="home" className="mx-auto w-full max-w-6xl px-6 pb-20 pt-24">
+        <Hero />
+        <Menu items={menuItems} />
+        <About />
+        <Gallery items={galleryItems} />
+        <Testimonials items={testimonials} />
+        <FaqContact items={faqs} />
       </main>
 
-      <FooterSection />
+      <Footer />
       <BackToTopButton show={showTopButton} />
     </div>
   );

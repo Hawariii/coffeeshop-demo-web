@@ -1,4 +1,4 @@
-export function AboutSection() {
+export function About() {
   return (
     <section id="about" data-reveal className="reveal grid gap-10 py-16 md:grid-cols-2 md:items-center">
       <div className="interactive-card rounded-3xl border border-[color:var(--coffee-warm)] bg-[color:var(--coffee-latte)] p-8">
